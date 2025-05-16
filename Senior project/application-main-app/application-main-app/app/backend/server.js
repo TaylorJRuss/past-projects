@@ -6,12 +6,13 @@ const { createClient } = require('@supabase/supabase-js');
 
 const app = express();
 const port = 3001;
-const open_weather_api_key = 'bbecbcd8c770a998fd1ca3941a9a149c';
+// Insert Key
+const open_weather_api_key = "";
 
 
 // Initialize Supabase client
 const supabaseUrl = 'https://kdquvyagnjpljmwmpuwt.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtkcXV2eWFnbmpwbGptd21wdXd0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDE0NTU2MjUsImV4cCI6MjA1NzAzMTYyNX0.MUKGJpTlIRE3Ebyv2UmKL1lMPHPlODvuiUSJCQOaNoU';
+const supabaseKey = "";
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 
@@ -132,10 +133,10 @@ app.get("/api/hotel/lat/:lat/lon/:lon", async (req, res) => {
   const lat = parseFloat(req.params.lat);
   const lon = parseFloat(req.params.lon);
   const { checkInDate, checkOutDate } = req.query;
-
+// add Google API key
   const amadeusClientId = "Gf97LFit4tKCVwHKXSrQB7PQjMk00GqB";
   const amadeusClientSecret = "0EMGNEulL44cyhJp";
-  const googleApiKey = "AIzaSyA5gs7eFYWLS0KJ0ndmMcs7prVtEfl27jg";
+  const googleApiKey = "";
 
   if (!lat || !lon || !checkInDate || !checkOutDate) {
     return res.status(400).json({ error: "Missing lat, lon, or date params" });
