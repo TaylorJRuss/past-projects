@@ -1,0 +1,8 @@
+﻿19:20:37:731	Build started...
+19:20:37:954	1>------ Build started: Project: Project2, Configuration: Debug x64 ------
+19:20:39:510	1>Assignment 1.cpp
+19:20:40:326	1>C:\Users\TJRus\source\repos\Project2\Assignment 1.cpp(124,18): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+19:20:41:273	1>Project2.vcxproj -> C:\Users\TJRus\source\repos\Project2\x64\Debug\Project2.exe
+19:20:41:333	1>Done building project "Project2.vcxproj".
+19:20:41:349	========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+19:20:41:349	========== Build started at 7:20 PM and took 03.830 seconds ==========

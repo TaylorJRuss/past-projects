@@ -1,0 +1,3 @@
+﻿  FileName.cpp
+C:\Users\TJRus\source\repos\Project3\FileName.cpp(129,18): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Project3.vcxproj -> C:\Users\TJRus\source\repos\Project3\x64\Debug\Project3.exe
